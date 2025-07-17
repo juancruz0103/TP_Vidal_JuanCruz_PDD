@@ -4,6 +4,7 @@ import ProximoTurno from "./components/ProximoTurno"
 import TratamientosRecientes from "./components/TratamientosRecientes"
 import InformacionContacto from "./components/InformacionContacto"
 import PagosFacturacion from "./components/PagosFacturacion"
+import SolicitarTurno from "./components/SolicitarTurno"
 
 export default function DashboardAfiliado() {
   return (
@@ -13,6 +14,7 @@ export default function DashboardAfiliado() {
 
       <ProximoTurno />
       <TratamientosRecientes />
+      <SolicitarTurno />
       <InformacionContacto />
       <PagosFacturacion />
     </div>
